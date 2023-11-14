@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>demo</title>
+<style>
+ .box{
+    background-color:red;
+    margin:50px;
+    width:120px;
+    height:110px;
+    position:relative;
+    animation:shakeit 2s linear 0s infinite alternate;
+}
+@keyframes shakeit{
+12.5% {left:-50px;background-color:red;}
+25% {left:50px;background-color:blue;}
+37.5% {left:-250px;background-color:green;}
+50% {left:25px;background-color:yellow;}
+62.5% {left:-10px;background-color:cyan;}
+75% {left:10px;background-color:pink;}
+}
+</style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>
